@@ -1,0 +1,72 @@
+body{
+    background: url(dust_scratches.png) repeat 0 0;
+}
+
+.text-box{
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 6%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+
+}
+span{
+    word-spacing: 20px;
+    display: inline-block;
+    font-weight: bolder;
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.face{
+  width: 300px;
+  height: 300px;
+  background: #D2B48C;
+  position: relative;
+  border-radius: 150px;
+  display: block;
+}
+.eye{
+  width: 50px;
+  height: 80px;
+  background: #262626;
+  border-radius: 140px;
+  position: absolute;
+  top: 40px;
+}
+.left{
+  left: 75px;
+}
+.right{
+  right: 75px;
+}
+.smile{
+  width: 200px;
+  height: 70px;
+  border: 10px solid #262626;
+  border-top: 0;
+  border-radius: 0 0 120px 120px / 0 0 90px 90px;
+  position: absolute;
+  bottom: 35px;
+  left: 38px;
+}
+.hat{
+  position: relative;
+  z-index: +1;
+  width: 430px;
+  height:300px;
+  top: 330px;
+  left: 1060px;
+}
+.jersey{
+  position: absolute;
+  z-index: -1;
+  width: 530px;
+  height:400px;
+  top: 730px;
+  left: 1015px;
+}
