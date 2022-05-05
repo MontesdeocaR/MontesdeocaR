@@ -1,6 +1,6 @@
-var stolenwages = document.getElementById('bezos');
-var stolenwages_counter = document.getElementById('bezos-counter');
-var stolenwagesCounterStart = document.getElementById('bezos-counter-start');
+var stolenwages = document.getElementById('stolenwages');
+var stolenwages_counter = document.getElementById('stolenwages-counter');
+var stolenwagesCounterStart = document.getElementById('stolenwages-counter-start');
 
 var thousand = new Intl.NumberFormat('en-US')
 var money = new Intl.NumberFormat('en-US', {
@@ -26,7 +26,7 @@ function update_wealth_counter() {
   }
 }
   function stolenwages_viewable() {
-    return window.scrollX < bezos.offsetLeft + bezos.offsetWidth + 100;
+    return window.scrollX < stolenwages.offsetLeft + stolenwages.offsetWidth + 100;
   }
   function stolenwages_counter_viewable() {
     return stolenwagesCounterStart.offsetLeft - window.scrollX < (window.innerWidth);
