@@ -38,66 +38,66 @@ h2 {
 }
 
 .wageimage{
-    height: auto;
+    height: 400px;
     max-width: 100%;
     position: relative;
-    left: 22%;
+    left: 40%;
 }
 
 .membership{
     height: 90%;
     max-width: 90%;
     position: relative;
-    top: 560px;
-    right: 600px;
+    top: 15px;
+    right: 100px;
 }
 
 .elon{
-    height: auto;
+    height: 400px;
     max-width: 100%;
     position: relative;
-    top: 560px;
-    right: 1750px;
+    top: 15px;
+    right: 250px;
 }
 
 .thanks{
-    height: 500px;
+    height: 400px;
     max-width: 100%;
     position: relative;
-    top: 560px;
-    right: 1250px;
+    top: 10px;
+    right: 500px;
 }
 
 .wealthdistro{
-    height: 500px;
+    height: 400px;
     max-width: 100%;
     position: relative;
-    top: 560px;
-    right: 1050px;
+    top: 10px;
+    right: 90px;
 }
 
 .healthcare1{
-    height: 500px;
+    height: 400px;
     max-width: 100%;
     position: relative;
-    top: 560px;
-    right: 1050px;
+    top: 10px;
+    right: 150px;
 }
 
 .amazonunion{
-    height: 500px;
+    height: 400px;
     max-width: 100%;
     position: relative;
-    top: 560px;
-    right: 1050px;
+    top: 10px;
+    right: 450px;
 }
 
 .taxrate{
-    height: 500px;
+    height: 450px;
     max-width: 100%;
     position: relative;
-    top: 560px;
-    right: 850px;
+    top: 10px;
+    right: 250px;
 }
 
 .scroll-this-way {
